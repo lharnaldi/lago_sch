@@ -1,0 +1,2030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/arnaldi/work/mercurialrepos/lharnaldi/kicad/lago_sch/lago_sch.sch</source>
+    <date>vie 13 dic 2019 12:19:26 -03</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RP_CTRL_BOARD</title>
+        <company>LabDPR</company>
+        <rev>3</rev>
+        <date>07/2018</date>
+        <source>lago_sch.sch</source>
+        <comment number="1" value="L. Horacio Arnaldi"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Connectors/" tstamps="/5AFC4E41/">
+      <title_block>
+        <title>RP_CTRL_BOARD</title>
+        <company>LabDPR</company>
+        <rev>3</rev>
+        <date>07/2018</date>
+        <source>Connectors.sch</source>
+        <comment number="1" value="L. Horacio Arnaldi"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power/" tstamps="/5B1EDD19/">
+      <title_block>
+        <title>RP_CTRL_BOARD</title>
+        <company>LabDPR</company>
+        <rev>3</rev>
+        <date>07/2018</date>
+        <source>power.sch</source>
+        <comment number="1" value="L. Horacio Arnaldi"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ACCF7BB</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>220k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ACCF7BC</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>68k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ACCF7BD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1nF</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ACCF7BF</tstamp>
+    </comp>
+    <comp ref="W5">
+      <value>TEST_1P</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="lago_sch-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ACD8C91</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Zener_opt</value>
+      <footprint>w_smd_diode:sod123</footprint>
+      <libsource lib="lago_sch-rescue" part="ZENERsmall" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B27997C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B27DC43</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="CP1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B27DC49</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM324</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="lago_sch-rescue" part="LM324" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B27E810</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A3847</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>220k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A384D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>68k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A3853</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1nF</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A385F</tstamp>
+    </comp>
+    <comp ref="W7">
+      <value>TEST_1P</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="lago_sch-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A3EDE</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Zener_opt</value>
+      <footprint>w_smd_diode:sod123</footprint>
+      <libsource lib="lago_sch-rescue" part="ZENERsmall" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A3EE4</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A59E5</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>220k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A59EB</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>68k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A59F1</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1nF</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A59FD</tstamp>
+    </comp>
+    <comp ref="W6">
+      <value>TEST_1P</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="lago_sch-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A5A26</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Zener_2V5</value>
+      <footprint>w_smd_diode:sod123</footprint>
+      <libsource lib="lago_sch-rescue" part="ZENERsmall" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A5A32</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A5A45</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>220k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A5A4B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>68k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A5A51</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1nF</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A5A5D</tstamp>
+    </comp>
+    <comp ref="W8">
+      <value>TEST_1P</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="lago_sch-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A5A93</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Zener_2V5</value>
+      <footprint>w_smd_diode:sod123</footprint>
+      <libsource lib="lago_sch-rescue" part="ZENERsmall" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2A5A99</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="cap" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B29825A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="cap" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A4E6E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="cap" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A54AD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="cap" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A58F7</tstamp>
+    </comp>
+    <comp ref="RP_E1">
+      <value>CONN_02X13</value>
+      <footprint>Connect:IDC_Header_Straight_26pins</footprint>
+      <libsource lib="lago_sch-rescue" part="CONN_02X13" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5AFC5B67</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>I2C_EXT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="lago_sch-rescue" part="CONN_01X04" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B27AB23</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B27C893</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>33k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B27C89A</tstamp>
+    </comp>
+    <comp ref="W9">
+      <value>TEST_1P</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="lago_sch-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B27C8AE</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B27CAA0</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>33k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B27CAA7</tstamp>
+    </comp>
+    <comp ref="W10">
+      <value>TEST_1P</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="lago_sch-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B27CABB</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Zener_3V3</value>
+      <footprint>w_smd_diode:sod123</footprint>
+      <libsource lib="lago_sch-rescue" part="ZENERsmall" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B27F274</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>Zener_3V3</value>
+      <footprint>w_smd_diode:sod123</footprint>
+      <libsource lib="lago_sch-rescue" part="ZENERsmall" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B27F780</tstamp>
+    </comp>
+    <comp ref="RP_E2">
+      <value>CONN_02X13</value>
+      <footprint>Connect:IDC_Header_Straight_26pins</footprint>
+      <libsource lib="lago_sch-rescue" part="CONN_02X13" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B28452A</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Conn_GPS</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08</footprint>
+      <libsource lib="lago_sch-rescue" part="CONN_01X08" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B285BD6</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>I2C_EXT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="lago_sch-rescue" part="CONN_01X04" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B286EF3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DB15</value>
+      <footprint>Connect:DB15MC</footprint>
+      <libsource lib="lago_sch-rescue" part="DB15" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5AFC5428</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>DB15</value>
+      <footprint>Connect:DB15MC</footprint>
+      <libsource lib="lago_sch-rescue" part="DB15" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2889AB</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C_Small" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B29893F</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B298980</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B298A77</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1K_1%</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B29BD21</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1k_1%</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B29C164</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_NO_Small</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="lago_sch-rescue" part="Jumper_NO_Small" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B29E49A</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="lago_sch-rescue" part="CONN_01X04" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B29F883</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <libsource lib="lago_sch-rescue" part="CONN_01X06" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2AB0F6</tstamp>
+    </comp>
+    <comp ref="GS1">
+      <value>GS2</value>
+      <footprint>horacio_mod:GS2</footprint>
+      <libsource lib="lago_sch-rescue" part="GS2" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2B0108</tstamp>
+    </comp>
+    <comp ref="GS2">
+      <value>GS2</value>
+      <footprint>horacio_mod:GS2</footprint>
+      <libsource lib="lago_sch-rescue" part="GS2" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2B021D</tstamp>
+    </comp>
+    <comp ref="GS3">
+      <value>GS2</value>
+      <footprint>horacio_mod:GS2</footprint>
+      <libsource lib="lago_sch-rescue" part="GS2" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2B1048</tstamp>
+    </comp>
+    <comp ref="GS4">
+      <value>GS2</value>
+      <footprint>horacio_mod:GS2</footprint>
+      <libsource lib="lago_sch-rescue" part="GS2" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2B14ED</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Conn_BMP280</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="lago_sch-rescue" part="CONN_01X04" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2D4D24</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>HEADER_16</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x16</footprint>
+      <libsource lib="lago_sch-rescue" part="HEADER_16" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2D6CB8</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2EE4D9</tstamp>
+    </comp>
+    <comp ref="L10">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2EE5B6</tstamp>
+    </comp>
+    <comp ref="L12">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2EE67F</tstamp>
+    </comp>
+    <comp ref="L14">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2EE6D6</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2F45C3</tstamp>
+    </comp>
+    <comp ref="L9">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2F45C9</tstamp>
+    </comp>
+    <comp ref="L11">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2F45CF</tstamp>
+    </comp>
+    <comp ref="L13">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B2F45D5</tstamp>
+    </comp>
+    <comp ref="L16">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B30EAF8</tstamp>
+    </comp>
+    <comp ref="L18">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B30EAFE</tstamp>
+    </comp>
+    <comp ref="L15">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B30EB24</tstamp>
+    </comp>
+    <comp ref="L17">
+      <value>10u</value>
+      <footprint>Choke_SMD:Choke_SMD_1206_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/5AFC4E41/"/>
+      <tstamp>5B30EB2A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LT8471</value>
+      <footprint>Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm</footprint>
+      <libsource lib="lago_sch-rescue" part="LT8471" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2DFC</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1u</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E03</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>15uH</value>
+      <footprint>Inductors_NEOSID:Neosid_Inductor_SM-NE56_SMD2220</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E0A</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>2.2uF</value>
+      <footprint>w_smd_cap:c_1206</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E11</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>MBRS340</value>
+      <footprint>Diodes_SMD:DO-214AB</footprint>
+      <libsource lib="lago_sch-rescue" part="D_Schottky_Small_ALT" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E26</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>3.9uH</value>
+      <footprint>Inductors:self_cms_we-tpc_XL</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E2D</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>3.9uH</value>
+      <footprint>Inductors:self_cms_we-tpc_XL</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E34</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>2.2uF</value>
+      <footprint>w_smd_cap:c_1206</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E41</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>180K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E88</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>180K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E8F</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E96</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2E9D</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2EA4</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2EAB</tstamp>
+    </comp>
+    <comp ref="JP7">
+      <value>Jumper</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="lago_sch-rescue" part="Jumper" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2EEB</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>560</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2EF9</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>MBRS340</value>
+      <footprint>Diodes_SMD:DO-214AB</footprint>
+      <libsource lib="lago_sch-rescue" part="D_Schottky_Small_ALT" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2F2F</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>BARREL_JACK</value>
+      <footprint>Connect:BARREL_JACK</footprint>
+      <libsource lib="lago_sch-rescue" part="BARREL_JACK" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2F58</tstamp>
+    </comp>
+    <comp ref="W13">
+      <value>3V3@0A4</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="lago_sch-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F2FFE</tstamp>
+    </comp>
+    <comp ref="W14">
+      <value>-3V3@0A4</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="lago_sch-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F305E</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>Fuse</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B1F4E92</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>47u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="lago_sch-rescue" part="CP1_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B23DE30</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM2596</value>
+      <footprint>TO_SOT_Packages_SMD:TO-263-5Lead</footprint>
+      <libsource lib="lago_sch-rescue" part="LM2596" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B240483</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100u_25V</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="lago_sch-rescue" part="CP" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B24086A</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>22n_100V</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B2415A4</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>470n_100V</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B24177E</tstamp>
+    </comp>
+    <comp ref="JP6">
+      <value>Jumper_NO_Small</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="lago_sch-rescue" part="Jumper_NO_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B242D15</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B245E5F</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>SRP1265-470M 47u</value>
+      <footprint>Inductors:SELF-WE-PD-XXL</footprint>
+      <libsource lib="lago_sch-rescue" part="INDUCTOR_SMALL" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B246801</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>B550C-13-F</value>
+      <footprint>Diodes_SMD:SMC_Standard</footprint>
+      <libsource lib="lago_sch-rescue" part="D_Schottky_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B246FA7</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>470n_100V</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B2483C7</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>330u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L16_P5</footprint>
+      <libsource lib="lago_sch-rescue" part="CP" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B248A07</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>220n_100V</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B248ECF</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>470n_100V</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B248FB6</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>3k3</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B24AC02</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B24AEBB</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B24AF9E</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>3n3_50V</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B24B077</tstamp>
+    </comp>
+    <comp ref="W11">
+      <value>+12V_in</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="lago_sch-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B24DEDD</tstamp>
+    </comp>
+    <comp ref="W12">
+      <value>+5V@3A</value>
+      <footprint>Measurement_Points:Measurement_Point_Round-SMD-Pad_Small</footprint>
+      <libsource lib="lago_sch-rescue" part="TEST_1P" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B258960</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>220k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B25C0BC</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>68k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B25C213</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>220k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B25F9DB</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>68k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="R_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B25FAB6</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>47u@10V</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="lago_sch-rescue" part="CP_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B26145C</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>47u@10V</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="lago_sch-rescue" part="CP_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B2640BE</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>10u_opt</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="CP_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B265B33</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100n_opt</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B265C0A</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>10u_opt</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="lago_sch-rescue" part="CP_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B268345</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B268E72</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>47u@10V</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="lago_sch-rescue" part="CP_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B26AC5C</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>47u@10V</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="lago_sch-rescue" part="CP_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B26C10C</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>10u_opt</value>
+      <footprint>Inductors_NEOSID:Neosid_Inductor_SM1206</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B27223D</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>10u_opt</value>
+      <footprint>Inductors_NEOSID:Neosid_Inductor_SM1206</footprint>
+      <libsource lib="lago_sch-rescue" part="L" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B27291A</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>Led_Small</value>
+      <footprint>w_smd_diode:sod123</footprint>
+      <libsource lib="lago_sch-rescue" part="Led_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B28D20E</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B292EA9</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>1u</value>
+      <footprint>w_smd_cap:c_0805</footprint>
+      <libsource lib="lago_sch-rescue" part="C" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B2AE95E</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NO_Small</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="lago_sch-rescue" part="Jumper_NO_Small" description=""/>
+      <sheetpath names="/Power/" tstamps="/5B1EDD19/"/>
+      <tstamp>5B3CD199</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="lago_sch-rescue" part="BARREL_JACK">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="CONN_01X08">
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="CONN_02X13">
+      <footprints>
+        <fp>Pin_Header_Straight_2X13</fp>
+        <fp>Pin_Header_Angled_2X13</fp>
+        <fp>Socket_Strip_Straight_2X13</fp>
+        <fp>Socket_Strip_Angled_2X13</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="CP">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="CP1">
+      <footprints>
+        <fp>SMD*_Pol</fp>
+        <fp>c_elec*</fp>
+        <fp>C*elec</fp>
+        <fp>TantalC*</fp>
+        <fp>Elko*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="CP1_Small">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="CP_Small">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="C_Small">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="DB15">
+      <footprints>
+        <fp>DB15*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P111" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="D_Schottky_Small">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="D_Schottky_Small_ALT">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="GS2">
+      <fields>
+        <field name="Reference">GS</field>
+        <field name="Value">GS2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="HEADER_16">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="Jumper">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="Jumper_NO_Small">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="L">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="LM2596">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2596</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+Vin" type="input"/>
+        <pin num="2" name="Out" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~On~/Off" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="LM324">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM324</field>
+      </fields>
+      <pins>
+        <pin num="1" name="O" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="+" type="passive"/>
+        <pin num="4" name="V+" type="passive"/>
+        <pin num="5" name="+" type="passive"/>
+        <pin num="6" name="-" type="passive"/>
+        <pin num="7" name="O" type="passive"/>
+        <pin num="8" name="O" type="passive"/>
+        <pin num="9" name="-" type="passive"/>
+        <pin num="10" name="+" type="passive"/>
+        <pin num="11" name="V-" type="passive"/>
+        <pin num="12" name="+" type="passive"/>
+        <pin num="13" name="-" type="passive"/>
+        <pin num="14" name="O" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="LT8471">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT8471</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1" type="openCol"/>
+        <pin num="2" name="E1" type="openEm"/>
+        <pin num="3" name="Vin1" type="input"/>
+        <pin num="4" name="PG1" type="input"/>
+        <pin num="5" name="FB1" type="output"/>
+        <pin num="6" name="OV/UV" type="input"/>
+        <pin num="7" name="RT" type="input"/>
+        <pin num="8" name="SS1" type="input"/>
+        <pin num="9" name="SYNC" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="C3" type="input"/>
+        <pin num="14" name="Shout" type="input"/>
+        <pin num="15" name="SS2" type="input"/>
+        <pin num="16" name="FB2" type="output"/>
+        <pin num="17" name="PG2" type="input"/>
+        <pin num="18" name="Vin2" type="input"/>
+        <pin num="19" name="E2" type="openEm"/>
+        <pin num="20" name="C2" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="Led_Small">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="R_Small">
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="TEST_1P">
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="ZENERsmall">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENERsmall</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lago_sch-rescue" part="cap">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">cap</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="lago_sch-rescue">
+      <uri>/home/arnaldi/work/mercurialrepos/lharnaldi/kicad/lago_sch/lago_sch-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AO3">
+      <node ref="RP_E1" pin="20"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R11-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="3" name="AO2">
+      <node ref="R3" pin="2"/>
+      <node ref="RP_E1" pin="19"/>
+    </net>
+    <net code="4" name="Vadj1">
+      <node ref="R11" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="8"/>
+      <node ref="D4" pin="1"/>
+      <node ref="W8" pin="1"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C7" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="RP_E1" pin="25"/>
+      <node ref="RP_E2" pin="25"/>
+      <node ref="RP_E2" pin="26"/>
+      <node ref="RP_E1" pin="21"/>
+      <node ref="RP_E1" pin="22"/>
+      <node ref="RP_E1" pin="26"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="L9" pin="2"/>
+      <node ref="L11" pin="2"/>
+      <node ref="L13" pin="2"/>
+      <node ref="L16" pin="2"/>
+      <node ref="L15" pin="2"/>
+      <node ref="L17" pin="2"/>
+      <node ref="L7" pin="2"/>
+      <node ref="L12" pin="2"/>
+      <node ref="L14" pin="2"/>
+      <node ref="L18" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="L8" pin="2"/>
+      <node ref="L10" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="J2" pin="10"/>
+      <node ref="P1" pin="2"/>
+      <node ref="J2" pin="11"/>
+      <node ref="P4" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J1" pin="11"/>
+      <node ref="J1" pin="12"/>
+      <node ref="J1" pin="13"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J2" pin="12"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J2" pin="13"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="RP_E1" pin="11"/>
+      <node ref="D3" pin="2"/>
+      <node ref="RP_E1" pin="12"/>
+      <node ref="P3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="P5" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P6" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="6" name="Net-(R5-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="7" name="AO0">
+      <node ref="R1" pin="2"/>
+      <node ref="RP_E1" pin="17"/>
+    </net>
+    <net code="8" name="Vadj0">
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="14"/>
+      <node ref="D2" pin="1"/>
+      <node ref="W6" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="10" name="5V@3A">
+      <node ref="GS1" pin="2"/>
+      <node ref="GS2" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="JP5" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J2" pin="3"/>
+      <node ref="W12" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(R10-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="15" name="Vo_analog1">
+      <node ref="U1" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="P6" pin="4"/>
+      <node ref="W7" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="16" name="Vo_analog0">
+      <node ref="U1" pin="7"/>
+      <node ref="P6" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="W5" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="18" name="AO1">
+      <node ref="RP_E1" pin="18"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="19" name="-SensTemp1">
+      <node ref="R18" pin="1"/>
+      <node ref="J2" pin="8"/>
+      <node ref="GS4" pin="1"/>
+    </net>
+    <net code="20" name="3V3@0A4">
+      <node ref="C33" pin="1"/>
+      <node ref="L5" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="W13" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="21" name="-3V3@0A4">
+      <node ref="J1" pin="2"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="W14" pin="1"/>
+      <node ref="L6" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="22" name="DIO3_P">
+      <node ref="J4" pin="7"/>
+      <node ref="RP_E2" pin="9"/>
+    </net>
+    <net code="23" name="DIO4_N">
+      <node ref="RP_E2" pin="12"/>
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="24" name="DIO7_N_GPS_PPS">
+      <node ref="RP_E2" pin="18"/>
+      <node ref="P1" pin="3"/>
+      <node ref="J4" pin="16"/>
+    </net>
+    <net code="25" name="DIO6_N">
+      <node ref="J4" pin="14"/>
+      <node ref="RP_E2" pin="16"/>
+    </net>
+    <net code="26" name="DIO5_N">
+      <node ref="J4" pin="12"/>
+      <node ref="RP_E2" pin="14"/>
+    </net>
+    <net code="27" name="DIO3_N">
+      <node ref="J4" pin="8"/>
+      <node ref="RP_E2" pin="10"/>
+    </net>
+    <net code="28" name="DIO2_N">
+      <node ref="J4" pin="6"/>
+      <node ref="RP_E2" pin="8"/>
+    </net>
+    <net code="29" name="DIO1_N">
+      <node ref="J4" pin="4"/>
+      <node ref="RP_E2" pin="6"/>
+    </net>
+    <net code="30" name="DIO0_N">
+      <node ref="RP_E2" pin="4"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="31" name="DIO6_P">
+      <node ref="J4" pin="13"/>
+      <node ref="RP_E2" pin="15"/>
+    </net>
+    <net code="32" name="DIO1_P">
+      <node ref="RP_E2" pin="5"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="33" name="DIO5_P">
+      <node ref="J4" pin="11"/>
+      <node ref="RP_E2" pin="13"/>
+    </net>
+    <net code="34" name="DIO4_P">
+      <node ref="RP_E2" pin="11"/>
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="35" name="Net-(RP_E1-Pad2)">
+      <node ref="RP_E1" pin="2"/>
+    </net>
+    <net code="36" name="AI1">
+      <node ref="GS4" pin="2"/>
+      <node ref="RP_E1" pin="14"/>
+    </net>
+    <net code="37" name="I2C_SDA">
+      <node ref="P2" pin="4"/>
+      <node ref="R19" pin="2"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P4" pin="4"/>
+      <node ref="RP_E1" pin="10"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="38" name="I2C_SCL">
+      <node ref="R20" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P2" pin="3"/>
+      <node ref="RP_E1" pin="9"/>
+      <node ref="P4" pin="3"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="39" name="SPI_CS">
+      <node ref="RP_E1" pin="6"/>
+      <node ref="P5" pin="4"/>
+    </net>
+    <net code="40" name="SPI_MISO">
+      <node ref="P5" pin="6"/>
+      <node ref="RP_E1" pin="4"/>
+    </net>
+    <net code="41" name="AI0">
+      <node ref="GS3" pin="2"/>
+      <node ref="RP_E1" pin="13"/>
+    </net>
+    <net code="42" name="+5V_RP_alim">
+      <node ref="RP_E1" pin="1"/>
+      <node ref="JP5" pin="2"/>
+    </net>
+    <net code="43" name="UART_TX">
+      <node ref="P1" pin="8"/>
+      <node ref="RP_E1" pin="7"/>
+    </net>
+    <net code="44" name="UART_RX">
+      <node ref="P1" pin="7"/>
+      <node ref="RP_E1" pin="8"/>
+    </net>
+    <net code="45" name="AI2">
+      <node ref="RP_E1" pin="15"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="W9" pin="1"/>
+    </net>
+    <net code="46" name="SPI_MOSI">
+      <node ref="RP_E1" pin="3"/>
+      <node ref="P5" pin="5"/>
+    </net>
+    <net code="47" name="AI3">
+      <node ref="W10" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="RP_E1" pin="16"/>
+    </net>
+    <net code="48" name="Vreadout1">
+      <node ref="J2" pin="6"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="49" name="-SensTemp0">
+      <node ref="R17" pin="1"/>
+      <node ref="J1" pin="8"/>
+      <node ref="GS3" pin="1"/>
+    </net>
+    <net code="50" name="+SensTemp0">
+      <node ref="J1" pin="15"/>
+      <node ref="GS1" pin="1"/>
+    </net>
+    <net code="51" name="Vreadout0">
+      <node ref="J1" pin="6"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="52" name="SPI_CLK">
+      <node ref="P5" pin="3"/>
+      <node ref="RP_E1" pin="5"/>
+    </net>
+    <net code="53" name="+12V">
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="4"/>
+      <node ref="R21" pin="1"/>
+      <node ref="JP6" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="JP7" pin="1"/>
+    </net>
+    <net code="54" name="+3V3">
+      <node ref="RP_E2" pin="1"/>
+      <node ref="RP_E2" pin="2"/>
+    </net>
+    <net code="55" name="GNDD">
+      <node ref="U3" pin="9"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="12"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="L3" pin="1"/>
+      <node ref="L11" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="L13" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="L12" pin="1"/>
+      <node ref="L14" pin="1"/>
+      <node ref="L17" pin="1"/>
+      <node ref="C35" pin="2"/>
+      <node ref="L18" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C34" pin="2"/>
+    </net>
+    <net code="56" name="GNDA">
+      <node ref="C23" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="L16" pin="1"/>
+      <node ref="L15" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="L8" pin="1"/>
+      <node ref="L9" pin="1"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="L10" pin="1"/>
+      <node ref="L7" pin="1"/>
+      <node ref="C22" pin="2"/>
+    </net>
+    <net code="57" name="DIO7_P_GPS_RST">
+      <node ref="J4" pin="15"/>
+      <node ref="P1" pin="4"/>
+      <node ref="RP_E2" pin="17"/>
+    </net>
+    <net code="58" name="DIO2_P">
+      <node ref="RP_E2" pin="7"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="59" name="DIO0_P">
+      <node ref="RP_E2" pin="3"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="60" name="+SensTemp1">
+      <node ref="J2" pin="15"/>
+      <node ref="GS2" pin="1"/>
+    </net>
+    <net code="61" name="Net-(RP_E2-Pad20)">
+      <node ref="RP_E2" pin="20"/>
+    </net>
+    <net code="62" name="Net-(RP_E2-Pad19)">
+      <node ref="RP_E2" pin="19"/>
+    </net>
+    <net code="63" name="Net-(RP_E2-Pad21)">
+      <node ref="RP_E2" pin="21"/>
+    </net>
+    <net code="64" name="Net-(RP_E2-Pad22)">
+      <node ref="RP_E2" pin="22"/>
+    </net>
+    <net code="65" name="Net-(RP_E2-Pad23)">
+      <node ref="RP_E2" pin="23"/>
+    </net>
+    <net code="66" name="Net-(RP_E2-Pad24)">
+      <node ref="RP_E2" pin="24"/>
+    </net>
+    <net code="67" name="Net-(RP_E1-Pad23)">
+      <node ref="RP_E1" pin="23"/>
+    </net>
+    <net code="68" name="Net-(RP_E1-Pad24)">
+      <node ref="RP_E1" pin="24"/>
+    </net>
+    <net code="69" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="70" name="Net-(J1-Pad14)">
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="71" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="72" name="Net-(J2-Pad14)">
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="73" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="18"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="74" name="Net-(D7-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="75" name="Net-(C27-Pad2)">
+      <node ref="C27" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="L6" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="76" name="Net-(C28-Pad1)">
+      <node ref="L4" pin="2"/>
+      <node ref="L5" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="77" name="Net-(C20-Pad2)">
+      <node ref="R26" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="78" name="Net-(C20-Pad1)">
+      <node ref="R28" pin="2"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="79" name="Net-(D8-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="80" name="Net-(R23-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="81" name="Net-(R31-Pad2)">
+      <node ref="U3" pin="16"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D10-Pad1)">
+      <node ref="U3" pin="19"/>
+      <node ref="L3" pin="2"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="83" name="Net-(J3-Pad1)">
+      <node ref="JP1" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="84" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="JP6" pin="2"/>
+      <node ref="W11" pin="1"/>
+    </net>
+    <net code="85" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="86" name="Net-(R33-Pad2)">
+      <node ref="U3" pin="5"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1"/>
+      <node ref="L4" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="88" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="89" name="Net-(L1-Pad2)">
+      <node ref="U3" pin="13"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="90" name="Net-(C15-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="JP7" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="91" name="Net-(R30-Pad1)">
+      <node ref="U3" pin="17"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="92" name="Net-(R29-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="93" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="94" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,1400 @@
+EESchema Schematic File Version 4
+LIBS:lago_sch-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "RP_CTRL_BOARD"
+Date "07/2018"
+Rev "3"
+Comp "LabDPR"
+Comment1 "L. Horacio Arnaldi"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L lago_sch-rescue:LT8471 U3
+U 1 1 5B1F2DFC
+P 5290 2105
+F 0 "U3" H 5590 2655 50  0000 L CNN
+F 1 "LT8471" H 5140 2655 50  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 5290 2655 50  0001 C CNN
+F 3 "" H 5290 2655 50  0000 C CNN
+	1    5290 2105
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C C18
+U 1 1 5B1F2E03
+P 4440 1655
+F 0 "C18" V 4390 1455 50  0000 L CNN
+F 1 "1u" V 4290 1605 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 4478 1505 50  0001 C CNN
+F 3 "" H 4440 1655 50  0000 C CNN
+	1    4440 1655
+	0    1    1    0   
+$EndComp
+$Comp
+L lago_sch-rescue:L L1
+U 1 1 5B1F2E0A
+P 4340 2105
+F 0 "L1" V 4290 2105 50  0000 C CNN
+F 1 "15uH" V 4415 2105 50  0000 C CNN
+F 2 "Inductors_NEOSID:Neosid_Inductor_SM-NE56_SMD2220" H 4340 2105 50  0001 C CNN
+F 3 "" H 4340 2105 50  0000 C CNN
+	1    4340 2105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lago_sch-rescue:C C24
+U 1 1 5B1F2E11
+P 6180 1455
+F 0 "C24" V 6230 1255 50  0000 L CNN
+F 1 "2.2uF" V 6030 1355 50  0000 L CNN
+F 2 "w_smd_cap:c_1206" H 6218 1305 50  0001 C CNN
+F 3 "" H 6180 1455 50  0000 C CNN
+	1    6180 1455
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:D_Schottky_Small_ALT D9
+U 1 1 5B1F2E26
+P 6690 1705
+F 0 "D9" V 6640 1505 50  0000 L CNN
+F 1 "MBRS340" V 6790 1305 50  0000 L CNN
+F 2 "Diodes_SMD:DO-214AB" V 6690 1705 50  0001 C CNN
+F 3 "" V 6690 1705 50  0000 C CNN
+	1    6690 1705
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lago_sch-rescue:L L4
+U 1 1 5B1F2E2D
+P 7040 1805
+F 0 "L4" V 6990 1805 50  0000 C CNN
+F 1 "3.9uH" V 7115 1805 50  0000 C CNN
+F 2 "Inductors:self_cms_we-tpc_XL" H 7040 1805 50  0001 C CNN
+F 3 "" H 7040 1805 50  0000 C CNN
+	1    7040 1805
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lago_sch-rescue:L L3
+U 1 1 5B1F2E34
+P 6490 2440
+F 0 "L3" V 6440 2440 50  0000 C CNN
+F 1 "3.9uH" V 6565 2440 50  0000 C CNN
+F 2 "Inductors:self_cms_we-tpc_XL" H 6490 2440 50  0001 C CNN
+F 3 "" H 6490 2440 50  0000 C CNN
+	1    6490 2440
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C C25
+U 1 1 5B1F2E41
+P 6340 2255
+F 0 "C25" V 6390 2055 50  0000 L CNN
+F 1 "2.2uF" V 6190 2205 50  0000 L CNN
+F 2 "w_smd_cap:c_1206" H 6378 2105 50  0001 C CNN
+F 3 "" H 6340 2255 50  0000 C CNN
+	1    6340 2255
+	0    1    1    0   
+$EndComp
+$Comp
+L lago_sch-rescue:R R24
+U 1 1 5B1F2E88
+P 4340 2255
+F 0 "R24" V 4420 2255 50  0000 C CNN
+F 1 "180K" V 4440 2065 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4270 2255 50  0001 C CNN
+F 3 "" H 4340 2255 50  0000 C CNN
+	1    4340 2255
+	0    1    1    0   
+$EndComp
+$Comp
+L lago_sch-rescue:R R27
+U 1 1 5B1F2E8F
+P 5090 3105
+F 0 "R27" V 5170 3105 50  0000 C CNN
+F 1 "180K" V 5155 2930 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5020 3105 50  0001 C CNN
+F 3 "" H 5090 3105 50  0000 C CNN
+	1    5090 3105
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:R R29
+U 1 1 5B1F2E96
+P 5290 3105
+F 0 "R29" V 5370 3105 50  0000 C CNN
+F 1 "100K" V 5365 2925 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5220 3105 50  0001 C CNN
+F 3 "" H 5290 3105 50  0000 C CNN
+	1    5290 3105
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:R R30
+U 1 1 5B1F2E9D
+P 5490 3105
+F 0 "R30" V 5570 3105 50  0000 C CNN
+F 1 "100K" V 5560 2915 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5420 3105 50  0001 C CNN
+F 3 "" H 5490 3105 50  0000 C CNN
+	1    5490 3105
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C C19
+U 1 1 5B1F2EA4
+P 4540 2805
+F 0 "C19" H 4565 2905 50  0000 L CNN
+F 1 "100n" H 4565 2705 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 4578 2655 50  0001 C CNN
+F 3 "" H 4540 2805 50  0000 C CNN
+	1    4540 2805
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C C17
+U 1 1 5B1F2EAB
+P 4240 2705
+F 0 "C17" H 4265 2805 50  0000 L CNN
+F 1 "100n" H 4240 2905 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 4278 2555 50  0001 C CNN
+F 3 "" H 4240 2705 50  0000 C CNN
+	1    4240 2705
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GND #PWR071
+U 1 1 5B1F2EBF
+P 1840 1955
+F 0 "#PWR071" H 1840 1705 50  0001 C CNN
+F 1 "GND" H 1840 1805 50  0000 C CNN
+F 2 "" H 1840 1955 50  0000 C CNN
+F 3 "" H 1840 1955 50  0000 C CNN
+	1    1840 1955
+	-1   0    0    -1  
+$EndComp
+Text GLabel 9130 1805 2    60   Input ~ 0
+3V3@0A4
+Text GLabel 9640 2590 2    60   Input ~ 0
+-3V3@0A4
+Text GLabel 3040 1295 1    60   Input ~ 0
++12V
+$Comp
+L lago_sch-rescue:Jumper JP7
+U 1 1 5B1F2EEB
+P 3340 1455
+F 0 "JP7" H 3340 1605 50  0000 C CNN
+F 1 "Jumper" H 3340 1375 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3340 1455 50  0001 C CNN
+F 3 "" H 3340 1455 50  0000 C CNN
+	1    3340 1455
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:R R22
+U 1 1 5B1F2EF9
+P 3040 1655
+F 0 "R22" V 3120 1655 50  0000 C CNN
+F 1 "560" H 2925 1655 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2970 1655 50  0001 C CNN
+F 3 "" H 3040 1655 50  0000 C CNN
+	1    3040 1655
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:D_Schottky_Small_ALT D10
+U 1 1 5B1F2F2F
+P 6805 2590
+F 0 "D10" H 6755 2690 50  0000 L CNN
+F 1 "MBRS340" H 6905 2640 50  0000 L CNN
+F 2 "Diodes_SMD:DO-214AB" V 6805 2590 50  0001 C CNN
+F 3 "" V 6805 2590 50  0000 C CNN
+	1    6805 2590
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:BARREL_JACK J3
+U 1 1 5B1F2F58
+P 1390 1605
+AR Path="/5B1F2F58" Ref="J3"  Part="1" 
+AR Path="/5B1EDD19/5B1F2F58" Ref="J3"  Part="1" 
+F 0 "J3" H 1390 1855 50  0000 C CNN
+F 1 "BARREL_JACK" H 1390 1405 50  0000 C CNN
+F 2 "Connect:BARREL_JACK" H 1390 1605 50  0001 C CNN
+F 3 "" H 1390 1605 50  0000 C CNN
+	1    1390 1605
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:TEST_1P W13
+U 1 1 5B1F2FFE
+P 8865 1760
+F 0 "W13" H 8865 2030 50  0000 C CNN
+F 1 "3V3@0A4" H 8865 1960 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9065 1760 50  0001 C CNN
+F 3 "" H 9065 1760 50  0000 C CNN
+	1    8865 1760
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:TEST_1P W14
+U 1 1 5B1F305E
+P 9480 2505
+F 0 "W14" H 9480 2775 50  0000 C CNN
+F 1 "-3V3@0A4" H 9480 2705 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9680 2505 50  0001 C CNN
+F 3 "" H 9680 2505 50  0000 C CNN
+	1    9480 2505
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:R R21
+U 1 1 5B1F4E92
+P 2545 1455
+F 0 "R21" V 2625 1455 50  0000 C CNN
+F 1 "Fuse" V 2475 1455 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2475 1455 50  0001 C CNN
+F 3 "" H 2545 1455 50  0000 C CNN
+	1    2545 1455
+	0    1    1    0   
+$EndComp
+$Comp
+L lago_sch-rescue:CP1_Small C16
+U 1 1 5B23DE30
+P 3865 1840
+F 0 "C16" H 3875 1910 50  0000 L CNN
+F 1 "47u" H 3875 1760 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 3865 1840 50  0001 C CNN
+F 3 "" H 3865 1840 50  0000 C CNN
+	1    3865 1840
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:LM2596 U2
+U 1 1 5B240483
+P 3275 4555
+F 0 "U2" H 3275 4655 60  0000 C CNN
+F 1 "LM2596" H 3275 4805 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-5Lead" H 3275 4455 60  0001 C CNN
+F 3 "" H 3275 4455 60  0000 C CNN
+	1    3275 4555
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:CP C12
+U 1 1 5B24086A
+P 1465 4605
+F 0 "C12" H 1490 4705 50  0000 L CNN
+F 1 "100u_25V" H 1020 4490 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 1503 4455 50  0001 C CNN
+F 3 "" H 1465 4605 50  0000 C CNN
+	1    1465 4605
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C_Small C13
+U 1 1 5B2415A4
+P 1715 4555
+F 0 "C13" H 1725 4625 50  0000 L CNN
+F 1 "22n_100V" H 1725 4475 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 1715 4555 50  0001 C CNN
+F 3 "" H 1715 4555 50  0000 C CNN
+	1    1715 4555
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C_Small C14
+U 1 1 5B24177E
+P 2035 4555
+F 0 "C14" H 2045 4625 50  0000 L CNN
+F 1 "470n_100V" H 2045 4475 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 2035 4555 50  0001 C CNN
+F 3 "" H 2035 4555 50  0000 C CNN
+	1    2035 4555
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:Jumper_NO_Small JP6
+U 1 1 5B242D15
+P 1090 4455
+F 0 "JP6" H 1090 4535 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1100 4395 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1090 4455 50  0001 C CNN
+F 3 "" H 1090 4455 50  0000 C CNN
+	1    1090 4455
+	1    0    0    -1  
+$EndComp
+Text Label 1055 4170 0    60   ~ 0
++12V
+Text Label 2715 1455 0    60   ~ 0
++12V
+$Comp
+L lago_sch-rescue:R_Small R23
+U 1 1 5B245E5F
+P 3475 5300
+F 0 "R23" H 3505 5320 50  0000 L CNN
+F 1 "1k" H 3505 5260 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3475 5300 50  0001 C CNN
+F 3 "" H 3475 5300 50  0000 C CNN
+	1    3475 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:INDUCTOR_SMALL L2
+U 1 1 5B246801
+P 4670 4455
+F 0 "L2" H 4670 4555 50  0000 C CNN
+F 1 "SRP1265-470M 47u" H 4680 4675 50  0000 C CNN
+F 2 "Inductors:SELF-WE-PD-XXL" H 4670 4455 50  0001 C CNN
+F 3 "" H 4670 4455 50  0000 C CNN
+	1    4670 4455
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:D_Schottky_Small D8
+U 1 1 5B246FA7
+P 4420 4660
+F 0 "D8" H 4370 4740 50  0000 L CNN
+F 1 "B550C-13-F" H 4140 4580 50  0000 L CNN
+F 2 "Diodes_SMD:SMC_Standard" V 4420 4660 50  0001 C CNN
+F 3 "" V 4420 4660 50  0000 C CNN
+	1    4420 4660
+	0    1    1    0   
+$EndComp
+$Comp
+L lago_sch-rescue:C_Small C21
+U 1 1 5B2483C7
+P 5155 4695
+F 0 "C21" H 5165 4765 50  0000 L CNN
+F 1 "470n_100V" H 5165 4615 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 5155 4695 50  0001 C CNN
+F 3 "" H 5155 4695 50  0000 C CNN
+	1    5155 4695
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:CP C22
+U 1 1 5B248A07
+P 5620 4670
+F 0 "C22" H 5645 4770 50  0000 L CNN
+F 1 "330u" H 5645 4570 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L16_P5" H 5658 4520 50  0001 C CNN
+F 3 "" H 5620 4670 50  0000 C CNN
+	1    5620 4670
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C_Small C23
+U 1 1 5B248ECF
+P 6015 4675
+F 0 "C23" H 6025 4745 50  0000 L CNN
+F 1 "220n_100V" H 6025 4595 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 6015 4675 50  0001 C CNN
+F 3 "" H 6015 4675 50  0000 C CNN
+	1    6015 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C_Small C26
+U 1 1 5B248FB6
+P 6420 4675
+F 0 "C26" H 6430 4745 50  0000 L CNN
+F 1 "470n_100V" H 6430 4595 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 6420 4675 50  0001 C CNN
+F 3 "" H 6420 4675 50  0000 C CNN
+	1    6420 4675
+	1    0    0    -1  
+$EndComp
+Text Label 6115 4455 0    60   ~ 0
+5V@3A
+$Comp
+L lago_sch-rescue:R_Small R25
+U 1 1 5B24AC02
+P 4640 5495
+F 0 "R25" H 4670 5515 50  0000 L CNN
+F 1 "3k3" H 4670 5455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4640 5495 50  0001 C CNN
+F 3 "" H 4640 5495 50  0000 C CNN
+	1    4640 5495
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:R_Small R26
+U 1 1 5B24AEBB
+P 4640 5770
+F 0 "R26" H 4670 5790 50  0000 L CNN
+F 1 "1k" H 4670 5730 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4640 5770 50  0001 C CNN
+F 3 "" H 4640 5770 50  0000 C CNN
+	1    4640 5770
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:R_Small R28
+U 1 1 5B24AF9E
+P 5120 5495
+F 0 "R28" H 5150 5515 50  0000 L CNN
+F 1 "100" H 5150 5455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5120 5495 50  0001 C CNN
+F 3 "" H 5120 5495 50  0000 C CNN
+	1    5120 5495
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C_Small C20
+U 1 1 5B24B077
+P 5120 5760
+F 0 "C20" H 5130 5830 50  0000 L CNN
+F 1 "3n3_50V" H 5130 5680 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 5120 5760 50  0001 C CNN
+F 3 "" H 5120 5760 50  0000 C CNN
+	1    5120 5760
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:TEST_1P W11
+U 1 1 5B24DEDD
+P 2270 4375
+F 0 "W11" H 2270 4645 50  0000 C CNN
+F 1 "+12V_in" H 2270 4575 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2470 4375 50  0001 C CNN
+F 3 "" H 2470 4375 50  0000 C CNN
+	1    2270 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:TEST_1P W12
+U 1 1 5B258960
+P 6810 4385
+F 0 "W12" H 6810 4655 50  0000 C CNN
+F 1 "+5V@3A" H 6810 4585 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7010 4385 50  0001 C CNN
+F 3 "" H 7010 4385 50  0000 C CNN
+	1    6810 4385
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:R_Small R33
+U 1 1 5B25C0BC
+P 7190 1940
+F 0 "R33" H 7220 1960 50  0000 L CNN
+F 1 "220k" H 7220 1900 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7190 1940 50  0001 C CNN
+F 3 "" H 7190 1940 50  0000 C CNN
+	1    7190 1940
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:R_Small R34
+U 1 1 5B25C213
+P 7190 2180
+F 0 "R34" H 7220 2200 50  0000 L CNN
+F 1 "68k" H 7220 2140 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7190 2180 50  0001 C CNN
+F 3 "" H 7190 2180 50  0000 C CNN
+	1    7190 2180
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:R_Small R31
+U 1 1 5B25F9DB
+P 7135 2690
+F 0 "R31" H 7165 2710 50  0000 L CNN
+F 1 "220k" H 7165 2650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7135 2690 50  0001 C CNN
+F 3 "" H 7135 2690 50  0000 C CNN
+	1    7135 2690
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:R_Small R32
+U 1 1 5B25FAB6
+P 7135 2930
+F 0 "R32" H 7165 2950 50  0000 L CNN
+F 1 "68k" H 7165 2890 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7135 2930 50  0001 C CNN
+F 3 "" H 7135 2930 50  0000 C CNN
+	1    7135 2930
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:CP_Small C27
+U 1 1 5B26145C
+P 7540 2690
+F 0 "C27" H 7550 2760 50  0000 L CNN
+F 1 "47u@10V" H 7550 2610 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 7540 2690 50  0001 C CNN
+F 3 "" H 7540 2690 50  0000 C CNN
+	1    7540 2690
+	-1   0    0    1   
+$EndComp
+$Comp
+L lago_sch-rescue:CP_Small C28
+U 1 1 5B2640BE
+P 7620 2125
+F 0 "C28" H 7630 2195 50  0000 L CNN
+F 1 "47u@10V" H 7630 2045 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 7620 2125 50  0001 C CNN
+F 3 "" H 7620 2125 50  0000 C CNN
+	1    7620 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:CP_Small C32
+U 1 1 5B265B33
+P 8805 2730
+F 0 "C32" H 8815 2800 50  0000 L CNN
+F 1 "10u_opt" H 8495 2605 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1812_HandSoldering" H 8805 2730 50  0001 C CNN
+F 3 "" H 8805 2730 50  0000 C CNN
+	1    8805 2730
+	-1   0    0    1   
+$EndComp
+$Comp
+L lago_sch-rescue:C_Small C34
+U 1 1 5B265C0A
+P 8965 2730
+F 0 "C34" H 8975 2800 50  0000 L CNN
+F 1 "100n_opt" H 8975 2650 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 8965 2730 50  0001 C CNN
+F 3 "" H 8965 2730 50  0000 C CNN
+	1    8965 2730
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:CP_Small C31
+U 1 1 5B268345
+P 8720 2080
+F 0 "C31" H 8730 2150 50  0000 L CNN
+F 1 "10u_opt" H 8325 2065 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1812_HandSoldering" H 8720 2080 50  0001 C CNN
+F 3 "" H 8720 2080 50  0000 C CNN
+	1    8720 2080
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C_Small C33
+U 1 1 5B268E72
+P 8920 2080
+F 0 "C33" H 8930 2150 50  0000 L CNN
+F 1 "100n" H 8930 2000 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 8920 2080 50  0001 C CNN
+F 3 "" H 8920 2080 50  0000 C CNN
+	1    8920 2080
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:CP_Small C29
+U 1 1 5B26AC5C
+P 7885 2125
+F 0 "C29" H 7895 2195 50  0000 L CNN
+F 1 "47u@10V" H 8000 1995 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 7885 2125 50  0001 C CNN
+F 3 "" H 7885 2125 50  0000 C CNN
+	1    7885 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:CP_Small C30
+U 1 1 5B26C10C
+P 8015 2775
+F 0 "C30" H 8025 2845 50  0000 L CNN
+F 1 "47u@10V" H 8025 2695 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 8015 2775 50  0001 C CNN
+F 3 "" H 8015 2775 50  0000 C CNN
+	1    8015 2775
+	-1   0    0    1   
+$EndComp
+$Comp
+L lago_sch-rescue:L L5
+U 1 1 5B27223D
+P 8280 1805
+F 0 "L5" V 8230 1805 50  0000 C CNN
+F 1 "10u_opt" V 8355 1805 50  0000 C CNN
+F 2 "Inductors_NEOSID:Neosid_Inductor_SM1206" H 8280 1805 50  0001 C CNN
+F 3 "" H 8280 1805 50  0000 C CNN
+	1    8280 1805
+	0    1    1    0   
+$EndComp
+$Comp
+L lago_sch-rescue:L L6
+U 1 1 5B27291A
+P 8405 2590
+F 0 "L6" V 8355 2590 50  0000 C CNN
+F 1 "10u_opt" V 8480 2590 50  0000 C CNN
+F 2 "Inductors_NEOSID:Neosid_Inductor_SM1206" H 8405 2590 50  0001 C CNN
+F 3 "" H 8405 2590 50  0000 C CNN
+	1    8405 2590
+	0    1    1    0   
+$EndComp
+Text GLabel 7105 4455 2    60   Input ~ 0
+5V@3A
+$Comp
+L lago_sch-rescue:Led_Small D7
+U 1 1 5B28D20E
+P 3040 1960
+F 0 "D7" H 2990 2085 50  0000 L CNN
+F 1 "Led_Small" H 2865 1860 50  0000 L CNN
+F 2 "w_smd_diode:sod123" V 3040 1960 50  0001 C CNN
+F 3 "" V 3040 1960 50  0000 C CNN
+	1    3040 1960
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lago_sch-rescue:GND #PWR072
+U 1 1 5B290024
+P 3040 2120
+F 0 "#PWR072" H 3040 1870 50  0001 C CNN
+F 1 "GND" H 3040 1970 50  0000 C CNN
+F 2 "" H 3040 2120 50  0000 C CNN
+F 3 "" H 3040 2120 50  0000 C CNN
+	1    3040 2120
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:C_Small C15
+U 1 1 5B292EA9
+P 3640 1805
+F 0 "C15" H 3650 1875 50  0000 L CNN
+F 1 "100n" H 3650 1725 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 3640 1805 50  0001 C CNN
+F 3 "" H 3640 1805 50  0000 C CNN
+	1    3640 1805
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4490 2105 4690 2105
+Wire Wire Line
+	5890 2255 5940 2255
+Wire Wire Line
+	5890 2105 5990 2105
+Wire Wire Line
+	6390 2255 6490 2255
+Wire Wire Line
+	5890 1805 6690 1805
+Connection ~ 6690 1805
+Wire Wire Line
+	5890 1955 6940 1955
+Wire Wire Line
+	6690 1605 6690 1505
+Wire Wire Line
+	7620 2225 7620 2305
+Wire Wire Line
+	4190 1805 4340 1805
+Wire Wire Line
+	4040 2105 4190 2105
+Wire Wire Line
+	4040 1305 4040 1455
+Wire Wire Line
+	5940 1305 5940 1655
+Connection ~ 5940 2255
+Wire Wire Line
+	5090 2905 5090 3005
+Wire Wire Line
+	5290 2905 5290 3005
+Wire Wire Line
+	5490 2905 5490 3005
+Wire Wire Line
+	4440 2255 4690 2255
+Wire Wire Line
+	4040 2255 4240 2255
+Connection ~ 4040 2105
+Wire Wire Line
+	5290 3205 5290 3405
+Wire Wire Line
+	4040 3405 5290 3405
+Wire Wire Line
+	5490 3405 5490 3205
+Connection ~ 5290 3405
+Connection ~ 4040 2255
+Wire Wire Line
+	4690 2555 4540 2555
+Wire Wire Line
+	4540 2555 4540 2755
+Wire Wire Line
+	4240 2405 4240 2655
+Wire Wire Line
+	4240 2405 4690 2405
+Wire Wire Line
+	1690 1705 1840 1705
+Wire Wire Line
+	1840 1705 1840 1955
+Connection ~ 4040 1455
+Wire Wire Line
+	3640 1455 3640 1705
+Connection ~ 3640 1455
+Wire Wire Line
+	3640 1905 3640 2255
+Wire Wire Line
+	2645 1455 3040 1455
+Wire Wire Line
+	1690 1455 2285 1455
+Wire Wire Line
+	1690 1455 1690 1505
+Wire Wire Line
+	3640 1455 4040 1455
+Wire Wire Line
+	4040 1305 5940 1305
+Wire Wire Line
+	8865 1805 8865 1760
+Connection ~ 8865 1805
+Wire Wire Line
+	4835 1375 4835 1445
+Wire Wire Line
+	5090 1405 5090 1375
+Wire Wire Line
+	5090 1375 4835 1375
+Wire Wire Line
+	5090 1405 5490 1405
+Wire Wire Line
+	4240 2955 4540 2955
+Wire Wire Line
+	4940 2955 4940 2905
+Wire Wire Line
+	4540 2905 4540 2955
+Wire Wire Line
+	4540 3090 4725 3090
+Connection ~ 4540 2955
+Wire Wire Line
+	4240 2805 4240 2955
+Connection ~ 5940 1305
+Wire Wire Line
+	5890 1655 5940 1655
+Connection ~ 5940 1655
+Wire Wire Line
+	6180 1555 6180 1635
+Wire Wire Line
+	3865 2020 3865 1940
+Wire Wire Line
+	3865 1740 3865 1705
+Wire Wire Line
+	3865 1705 3640 1705
+Wire Wire Line
+	1190 4455 1465 4455
+Connection ~ 2035 4455
+Connection ~ 1715 4455
+Connection ~ 1465 4455
+Wire Wire Line
+	990  4455 990  4170
+Wire Wire Line
+	990  4170 1460 4170
+Wire Wire Line
+	2035 4725 2035 4655
+Wire Wire Line
+	1715 4655 1715 4725
+Wire Wire Line
+	1465 4790 1465 4755
+Wire Wire Line
+	3025 5210 3025 5155
+Wire Wire Line
+	3475 5200 3475 5155
+Wire Wire Line
+	3475 5400 3475 5490
+Wire Wire Line
+	4420 4455 4025 4455
+Wire Wire Line
+	4420 4760 4420 4855
+Wire Wire Line
+	4420 4455 4420 4560
+Wire Wire Line
+	4920 4455 5155 4455
+Wire Wire Line
+	5155 4455 5155 4595
+Wire Wire Line
+	5620 4455 5620 4520
+Connection ~ 5155 4455
+Wire Wire Line
+	6420 4455 6420 4575
+Connection ~ 5620 4455
+Wire Wire Line
+	6015 4575 6015 4455
+Connection ~ 6015 4455
+Wire Wire Line
+	5155 4795 5155 4895
+Wire Wire Line
+	5620 4820 5620 4895
+Wire Wire Line
+	6015 4775 6015 4890
+Wire Wire Line
+	6420 4775 6420 4890
+Wire Wire Line
+	5120 5595 5120 5660
+Wire Wire Line
+	4640 5595 4640 5670
+Wire Wire Line
+	5120 5860 4880 5860
+Wire Wire Line
+	4880 5860 4880 5670
+Wire Wire Line
+	4880 5670 4640 5670
+Wire Wire Line
+	4640 5395 4640 5325
+Wire Wire Line
+	4640 5325 5120 5325
+Wire Wire Line
+	5120 5395 5120 5325
+Connection ~ 5120 5325
+Wire Wire Line
+	6845 5325 6845 4455
+Connection ~ 6420 4455
+Wire Wire Line
+	4640 5870 4640 5945
+Wire Wire Line
+	4025 4705 4100 4705
+Wire Wire Line
+	4100 4705 4100 5595
+Wire Wire Line
+	4100 5595 4640 5595
+Wire Wire Line
+	2270 4375 2270 4455
+Connection ~ 2270 4455
+Wire Wire Line
+	6810 4385 6810 4455
+Connection ~ 6810 4455
+Wire Wire Line
+	7190 1805 7190 1840
+Wire Wire Line
+	7190 2080 7190 2040
+Wire Wire Line
+	7190 2040 6940 2040
+Wire Wire Line
+	6940 2040 6940 1955
+Wire Wire Line
+	6490 2255 6490 2290
+Wire Wire Line
+	6055 2590 6055 2405
+Wire Wire Line
+	6055 2405 5890 2405
+Wire Wire Line
+	6055 2590 6490 2590
+Wire Wire Line
+	7135 2790 7135 2830
+Wire Wire Line
+	7135 2830 5935 2830
+Wire Wire Line
+	5935 2830 5935 2555
+Wire Wire Line
+	5935 2555 5890 2555
+Connection ~ 6490 2590
+Connection ~ 7135 2590
+Connection ~ 7540 2590
+Wire Wire Line
+	7540 2840 7540 2790
+Wire Wire Line
+	7135 3090 7135 3030
+Wire Wire Line
+	7190 2310 7190 2280
+Wire Wire Line
+	6905 2590 7135 2590
+Wire Wire Line
+	8805 2630 8805 2590
+Wire Wire Line
+	8555 2590 8805 2590
+Wire Wire Line
+	9480 2590 9480 2505
+Connection ~ 8805 2590
+Wire Wire Line
+	8965 2630 8965 2590
+Connection ~ 8965 2590
+Connection ~ 9480 2590
+Wire Wire Line
+	8805 2830 8805 2905
+Wire Wire Line
+	8965 2830 8965 2905
+Wire Wire Line
+	7620 2025 7620 1805
+Connection ~ 7620 1805
+Wire Wire Line
+	7190 1805 7620 1805
+Wire Wire Line
+	8720 1980 8720 1805
+Wire Wire Line
+	8430 1805 8720 1805
+Wire Wire Line
+	8720 2180 8720 2225
+Wire Wire Line
+	8920 1805 8920 1980
+Connection ~ 8720 1805
+Connection ~ 8920 1805
+Wire Wire Line
+	8920 2180 8920 2230
+Wire Wire Line
+	7885 1805 7885 2025
+Connection ~ 7885 1805
+Wire Wire Line
+	7885 2225 7885 2310
+Wire Wire Line
+	8015 2925 8015 2875
+Wire Wire Line
+	8015 2590 8015 2675
+Connection ~ 8015 2590
+Connection ~ 6845 4455
+Wire Wire Line
+	3040 2120 3040 2060
+Wire Wire Line
+	3040 1755 3040 1860
+Wire Wire Line
+	3040 1295 3040 1455
+Connection ~ 3040 1455
+Wire Wire Line
+	5090 3205 4725 3205
+Wire Wire Line
+	4725 3205 4725 3090
+Connection ~ 6490 2255
+Wire Wire Line
+	6180 1305 6180 1405
+Wire Wire Line
+	1690 1605 1690 1705
+Wire Wire Line
+	4690 1655 4690 1805
+Connection ~ 4690 1805
+Wire Wire Line
+	4690 1655 4490 1655
+Wire Wire Line
+	4190 1655 4190 1805
+Wire Wire Line
+	4190 1655 4340 1655
+$Comp
+L lago_sch-rescue:C C35
+U 1 1 5B2AE95E
+P 4440 1805
+F 0 "C35" H 4490 1815 50  0000 L CNN
+F 1 "1u" H 4490 1745 50  0000 L CNN
+F 2 "w_smd_cap:c_0805" H 4440 1805 60  0001 C CNN
+F 3 "" H 4440 1805 60  0000 C CNN
+	1    4440 1805
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4490 1805 4690 1805
+$Comp
+L lago_sch-rescue:GNDA #PWR073
+U 1 1 5B2EFB20
+P 1465 4790
+F 0 "#PWR073" H 1465 4540 50  0001 C CNN
+F 1 "GNDA" H 1465 4640 50  0000 C CNN
+F 2 "" H 1465 4790 50  0000 C CNN
+F 3 "" H 1465 4790 50  0000 C CNN
+	1    1465 4790
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDA #PWR074
+U 1 1 5B2EFD7A
+P 1715 4725
+F 0 "#PWR074" H 1715 4475 50  0001 C CNN
+F 1 "GNDA" H 1715 4575 50  0000 C CNN
+F 2 "" H 1715 4725 50  0000 C CNN
+F 3 "" H 1715 4725 50  0000 C CNN
+	1    1715 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDA #PWR075
+U 1 1 5B2F0002
+P 2035 4725
+F 0 "#PWR075" H 2035 4475 50  0001 C CNN
+F 1 "GNDA" H 2035 4575 50  0000 C CNN
+F 2 "" H 2035 4725 50  0000 C CNN
+F 3 "" H 2035 4725 50  0000 C CNN
+	1    2035 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDA #PWR076
+U 1 1 5B2F0251
+P 3025 5210
+F 0 "#PWR076" H 3025 4960 50  0001 C CNN
+F 1 "GNDA" H 3025 5060 50  0000 C CNN
+F 2 "" H 3025 5210 50  0000 C CNN
+F 3 "" H 3025 5210 50  0000 C CNN
+	1    3025 5210
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDA #PWR077
+U 1 1 5B2F0512
+P 3475 5490
+F 0 "#PWR077" H 3475 5240 50  0001 C CNN
+F 1 "GNDA" H 3475 5340 50  0000 C CNN
+F 2 "" H 3475 5490 50  0000 C CNN
+F 3 "" H 3475 5490 50  0000 C CNN
+	1    3475 5490
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDA #PWR078
+U 1 1 5B2F0761
+P 4640 5945
+F 0 "#PWR078" H 4640 5695 50  0001 C CNN
+F 1 "GNDA" H 4640 5795 50  0000 C CNN
+F 2 "" H 4640 5945 50  0000 C CNN
+F 3 "" H 4640 5945 50  0000 C CNN
+	1    4640 5945
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDA #PWR079
+U 1 1 5B2F0B06
+P 4420 4855
+F 0 "#PWR079" H 4420 4605 50  0001 C CNN
+F 1 "GNDA" H 4420 4705 50  0000 C CNN
+F 2 "" H 4420 4855 50  0000 C CNN
+F 3 "" H 4420 4855 50  0000 C CNN
+	1    4420 4855
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDA #PWR080
+U 1 1 5B2F0C38
+P 5155 4895
+F 0 "#PWR080" H 5155 4645 50  0001 C CNN
+F 1 "GNDA" H 5155 4745 50  0000 C CNN
+F 2 "" H 5155 4895 50  0000 C CNN
+F 3 "" H 5155 4895 50  0000 C CNN
+	1    5155 4895
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDA #PWR081
+U 1 1 5B2F0F32
+P 5620 4895
+F 0 "#PWR081" H 5620 4645 50  0001 C CNN
+F 1 "GNDA" H 5620 4745 50  0000 C CNN
+F 2 "" H 5620 4895 50  0000 C CNN
+F 3 "" H 5620 4895 50  0000 C CNN
+	1    5620 4895
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDA #PWR082
+U 1 1 5B2F0FF2
+P 6015 4890
+F 0 "#PWR082" H 6015 4640 50  0001 C CNN
+F 1 "GNDA" H 6015 4740 50  0000 C CNN
+F 2 "" H 6015 4890 50  0000 C CNN
+F 3 "" H 6015 4890 50  0000 C CNN
+	1    6015 4890
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDA #PWR083
+U 1 1 5B2F1196
+P 6420 4890
+F 0 "#PWR083" H 6420 4640 50  0001 C CNN
+F 1 "GNDA" H 6420 4740 50  0000 C CNN
+F 2 "" H 6420 4890 50  0000 C CNN
+F 3 "" H 6420 4890 50  0000 C CNN
+	1    6420 4890
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR084
+U 1 1 5B2F1820
+P 3640 2255
+F 0 "#PWR084" H 3640 2005 50  0001 C CNN
+F 1 "GNDD" H 3640 2105 50  0000 C CNN
+F 2 "" H 3640 2255 50  0000 C CNN
+F 3 "" H 3640 2255 50  0000 C CNN
+	1    3640 2255
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR085
+U 1 1 5B2F19C5
+P 3865 2020
+F 0 "#PWR085" H 3865 1770 50  0001 C CNN
+F 1 "GNDD" H 3865 1870 50  0000 C CNN
+F 2 "" H 3865 2020 50  0000 C CNN
+F 3 "" H 3865 2020 50  0000 C CNN
+	1    3865 2020
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR086
+U 1 1 5B2F1C4D
+P 4190 1805
+F 0 "#PWR086" H 4190 1555 50  0001 C CNN
+F 1 "GNDD" H 4190 1655 50  0000 C CNN
+F 2 "" H 4190 1805 50  0000 C CNN
+F 3 "" H 4190 1805 50  0000 C CNN
+	1    4190 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR087
+U 1 1 5B2F1F47
+P 4835 1445
+F 0 "#PWR087" H 4835 1195 50  0001 C CNN
+F 1 "GNDD" H 4835 1295 50  0000 C CNN
+F 2 "" H 4835 1445 50  0000 C CNN
+F 3 "" H 4835 1445 50  0000 C CNN
+	1    4835 1445
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR088
+U 1 1 5B2F227A
+P 6180 1635
+F 0 "#PWR088" H 6180 1385 50  0001 C CNN
+F 1 "GNDD" H 6180 1485 50  0000 C CNN
+F 2 "" H 6180 1635 50  0000 C CNN
+F 3 "" H 6180 1635 50  0000 C CNN
+	1    6180 1635
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR089
+U 1 1 5B2F23AC
+P 6690 1505
+F 0 "#PWR089" H 6690 1255 50  0001 C CNN
+F 1 "GNDD" H 6690 1355 50  0000 C CNN
+F 2 "" H 6690 1505 50  0000 C CNN
+F 3 "" H 6690 1505 50  0000 C CNN
+	1    6690 1505
+	-1   0    0    1   
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR090
+U 1 1 5B2F266D
+P 4540 3090
+F 0 "#PWR090" H 4540 2840 50  0001 C CNN
+F 1 "GNDD" H 4540 2940 50  0000 C CNN
+F 2 "" H 4540 3090 50  0000 C CNN
+F 3 "" H 4540 3090 50  0000 C CNN
+	1    4540 3090
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR091
+U 1 1 5B2F28BC
+P 6590 2255
+F 0 "#PWR091" H 6590 2005 50  0001 C CNN
+F 1 "GNDD" H 6590 2105 50  0000 C CNN
+F 2 "" H 6590 2255 50  0000 C CNN
+F 3 "" H 6590 2255 50  0000 C CNN
+	1    6590 2255
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR092
+U 1 1 5B2F2BB6
+P 5990 2105
+F 0 "#PWR092" H 5990 1855 50  0001 C CNN
+F 1 "GNDD" H 5990 1955 50  0000 C CNN
+F 2 "" H 5990 2105 50  0000 C CNN
+F 3 "" H 5990 2105 50  0000 C CNN
+	1    5990 2105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR093
+U 1 1 5B2F2D59
+P 7135 3090
+F 0 "#PWR093" H 7135 2840 50  0001 C CNN
+F 1 "GNDD" H 7135 2940 50  0000 C CNN
+F 2 "" H 7135 3090 50  0000 C CNN
+F 3 "" H 7135 3090 50  0000 C CNN
+	1    7135 3090
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR094
+U 1 1 5B2F31ED
+P 7540 2840
+F 0 "#PWR094" H 7540 2590 50  0001 C CNN
+F 1 "GNDD" H 7540 2690 50  0000 C CNN
+F 2 "" H 7540 2840 50  0000 C CNN
+F 3 "" H 7540 2840 50  0000 C CNN
+	1    7540 2840
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR095
+U 1 1 5B2F3391
+P 8015 2925
+F 0 "#PWR095" H 8015 2675 50  0001 C CNN
+F 1 "GNDD" H 8015 2775 50  0000 C CNN
+F 2 "" H 8015 2925 50  0000 C CNN
+F 3 "" H 8015 2925 50  0000 C CNN
+	1    8015 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR096
+U 1 1 5B2F3619
+P 8805 2905
+F 0 "#PWR096" H 8805 2655 50  0001 C CNN
+F 1 "GNDD" H 8805 2755 50  0000 C CNN
+F 2 "" H 8805 2905 50  0000 C CNN
+F 3 "" H 8805 2905 50  0000 C CNN
+	1    8805 2905
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR097
+U 1 1 5B2F36D9
+P 8965 2905
+F 0 "#PWR097" H 8965 2655 50  0001 C CNN
+F 1 "GNDD" H 8965 2755 50  0000 C CNN
+F 2 "" H 8965 2905 50  0000 C CNN
+F 3 "" H 8965 2905 50  0000 C CNN
+	1    8965 2905
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR098
+U 1 1 5B2F3A0C
+P 8920 2230
+F 0 "#PWR098" H 8920 1980 50  0001 C CNN
+F 1 "GNDD" H 8920 2080 50  0000 C CNN
+F 2 "" H 8920 2230 50  0000 C CNN
+F 3 "" H 8920 2230 50  0000 C CNN
+	1    8920 2230
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR099
+U 1 1 5B2F3ACC
+P 8720 2225
+F 0 "#PWR099" H 8720 1975 50  0001 C CNN
+F 1 "GNDD" H 8720 2075 50  0000 C CNN
+F 2 "" H 8720 2225 50  0000 C CNN
+F 3 "" H 8720 2225 50  0000 C CNN
+	1    8720 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR0100
+U 1 1 5B2F3D1B
+P 7885 2310
+F 0 "#PWR0100" H 7885 2060 50  0001 C CNN
+F 1 "GNDD" H 7885 2160 50  0000 C CNN
+F 2 "" H 7885 2310 50  0000 C CNN
+F 3 "" H 7885 2310 50  0000 C CNN
+	1    7885 2310
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR0101
+U 1 1 5B2F3DDB
+P 7620 2305
+F 0 "#PWR0101" H 7620 2055 50  0001 C CNN
+F 1 "GNDD" H 7620 2155 50  0000 C CNN
+F 2 "" H 7620 2305 50  0000 C CNN
+F 3 "" H 7620 2305 50  0000 C CNN
+	1    7620 2305
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:GNDD #PWR0102
+U 1 1 5B2F3F7F
+P 7190 2310
+F 0 "#PWR0102" H 7190 2060 50  0001 C CNN
+F 1 "GNDD" H 7190 2160 50  0000 C CNN
+F 2 "" H 7190 2310 50  0000 C CNN
+F 3 "" H 7190 2310 50  0000 C CNN
+	1    7190 2310
+	1    0    0    -1  
+$EndComp
+$Comp
+L lago_sch-rescue:Jumper_NO_Small JP1
+U 1 1 5B3CD199
+P 2285 1825
+F 0 "JP1" H 2285 1905 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2295 1765 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2285 1825 50  0001 C CNN
+F 3 "" H 2285 1825 50  0000 C CNN
+	1    2285 1825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2285 1725 2285 1455
+Connection ~ 2285 1455
+Wire Wire Line
+	1840 1955 2285 1955
+Wire Wire Line
+	2285 1955 2285 1925
+Text Notes 885  2490 0    60   ~ 0
+JP1: 12V Alimentación ventilador (opcional)
+Wire Wire Line
+	6690 1805 6890 1805
+Wire Wire Line
+	5940 2255 6240 2255
+Wire Wire Line
+	4040 2105 4040 2255
+Wire Wire Line
+	5290 3405 5490 3405
+Wire Wire Line
+	4040 2255 4040 3405
+Wire Wire Line
+	4040 1455 4040 2105
+Wire Wire Line
+	8865 1805 8920 1805
+Wire Wire Line
+	4540 2955 4940 2955
+Wire Wire Line
+	4540 2955 4540 3090
+Wire Wire Line
+	5940 1305 6180 1305
+Wire Wire Line
+	5940 1655 5940 2255
+Wire Wire Line
+	2035 4455 2270 4455
+Wire Wire Line
+	1715 4455 2035 4455
+Wire Wire Line
+	1465 4455 1715 4455
+Wire Wire Line
+	5155 4455 5620 4455
+Wire Wire Line
+	5620 4455 6015 4455
+Wire Wire Line
+	6015 4455 6420 4455
+Wire Wire Line
+	5120 5325 6845 5325
+Wire Wire Line
+	6420 4455 6810 4455
+Wire Wire Line
+	2270 4455 2525 4455
+Wire Wire Line
+	6810 4455 6845 4455
+Wire Wire Line
+	6490 2590 6705 2590
+Wire Wire Line
+	7135 2590 7540 2590
+Wire Wire Line
+	7540 2590 8015 2590
+Wire Wire Line
+	8805 2590 8965 2590
+Wire Wire Line
+	8965 2590 9480 2590
+Wire Wire Line
+	9480 2590 9640 2590
+Wire Wire Line
+	7620 1805 7885 1805
+Wire Wire Line
+	8720 1805 8865 1805
+Wire Wire Line
+	8920 1805 9130 1805
+Wire Wire Line
+	7885 1805 8130 1805
+Wire Wire Line
+	8015 2590 8255 2590
+Wire Wire Line
+	6845 4455 7105 4455
+Wire Wire Line
+	3040 1455 3040 1555
+Wire Wire Line
+	6490 2255 6590 2255
+Wire Wire Line
+	4690 1805 4690 1955
+Wire Wire Line
+	2285 1455 2445 1455
+$EndSCHEMATC
