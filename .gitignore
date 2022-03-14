@@ -1,0 +1,16 @@
+#Aux files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+#Vim swap files
+*.swp
+#jupyter notebook checkpoints
+.ipynb_checkpoints
+#Xilinx checks and Vivado log files
+.Xil
+*.str
+#KiCAD backup files
+*-backups
+
